@@ -6,3 +6,6 @@ sqlalchemy
 pandas
 langgraph
 IPython
+langchain_huggingface
+ipywidgets
+transformers

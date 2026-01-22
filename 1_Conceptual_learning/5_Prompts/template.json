@@ -1,0 +1,18 @@
+{
+    "name": null,
+    "input_variables": [
+        "desired_length",
+        "input_text",
+        "optional_focus",
+        "output_format"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    Summarize the following text.\n    Text:\n    {input_text}\n\n    Requirements:\n    - Length: {desired_length} sentences\n    - Focus on: {optional_focus}\n    - Output format: {output_format}\n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
